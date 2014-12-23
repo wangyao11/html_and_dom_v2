@@ -1,6 +1,14 @@
 var Question = require('./model/question');
-var $ = require('jquery');
+
+var Questions = require('./model/questions');
+
 var _ = require('lodash');
+
+$(document).ready(function(){
+  $("#submit").on('click',function(){
+    countGarde();
+  });
+});
 
 function countGarde() {
 
@@ -20,7 +28,7 @@ function countGarde() {
     return false;
   }
   var score = 0;
-  var questions = Question.all();
+  var questions = Questions.getQuestions();
 
   _.forEach(questions, function(question) {
     var inputElement = $('[name=' + question.name + ']');
