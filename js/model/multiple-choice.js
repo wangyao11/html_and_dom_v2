@@ -19,3 +19,5 @@ MultipleChoice.prototype.calculateScorce = function (inputElement) {
 
   return this.rightAnswer.toString() === value.toString() ? this.scorce : 0;
 };
+
+module.exports = MultipleChoice;

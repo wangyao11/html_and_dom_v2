@@ -13,3 +13,5 @@ Choice.prototype.calculateScorce = function (inputElement) {
 
   return this.rightAnswer === radioValue ? this.scorce : 0;
 };
+
+module.exports = Choice;

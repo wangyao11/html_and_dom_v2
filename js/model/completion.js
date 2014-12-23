@@ -23,3 +23,5 @@ Completion.prototype.calculateScorce = function (inputElement) {
   });
   return scorce;
 };
+
+module.exports = Completion;

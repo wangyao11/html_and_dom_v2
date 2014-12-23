@@ -15,3 +15,5 @@ ShortAnswer.prototype.calculateScorce = function (inputElement) {
 
   return this.rightAnswer === string ? this.scorce : 0;
 };
+
+module.exports = ShortAnswer;
