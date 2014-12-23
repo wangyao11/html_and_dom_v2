@@ -6,7 +6,7 @@ var _ = require('lodash');
 
 $(document).ready(function(){
   $("#submit").on('click',function(){
-    countGarde();
+    return countGarde();
   });
 });
 
