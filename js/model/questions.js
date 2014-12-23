@@ -1,3 +1,9 @@
+var Completion = require("./completion");
+var Choice = require("./choice");
+var MultipleChoice = require("./multiple-choice");
+var Estimate = require("./estimate");
+var ShortAnswer = require("./shortAnswer");
+
 getQuestions = function () {
   return [
     new Completion('1_1',['统一建模语言'],5),
