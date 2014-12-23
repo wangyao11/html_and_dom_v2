@@ -1,3 +1,5 @@
+var Question = require("./question");
+
 function Choice(name, rightAnswer, scorce) {
   Question.call(this, name, rightAnswer, scorce);
 }
