@@ -12,3 +12,5 @@ getQuestions = function () {
     '事物或概念的一种表达形式。可以是物理实体;可以是某种图形;或者是一种数学表达式。',20),
   ];
 };
+
+exports.getQuestions = getQuestions;
