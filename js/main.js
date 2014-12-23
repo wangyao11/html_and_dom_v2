@@ -1,3 +1,7 @@
+var Question = require('./model/question');
+var $ = require('jquery');
+var _ = require('lodash');
+
 function countGarde() {
 
   var requiredInputs = [{
