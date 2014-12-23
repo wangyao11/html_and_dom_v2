@@ -10,3 +10,5 @@ Question.all = function(){
 Question.prototype.calculateScorce = function () {
 
 };
+
+module.exports = Question;
