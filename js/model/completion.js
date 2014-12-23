@@ -1,3 +1,5 @@
+var Question = require("./question");
+
 function Completion(name, rightAnswer, scorce) {
   Question.call(this, name, rightAnswer, scorce);
 }
