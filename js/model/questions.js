@@ -1,8 +1,8 @@
-var Completion = require("./completion");
-var Choice = require("./choice");
-var MultipleChoice = require("./multiple-choice");
-var Estimate = require("./estimate");
-var ShortAnswer = require("./shortAnswer");
+var Completion = require('./completion');
+var Choice = require('./choice');
+var MultipleChoice = require('./multiple-choice');
+var Estimate = require('./estimate');
+var ShortAnswer = require('./shortAnswer');
 
 var getQuestions = function () {
   return [

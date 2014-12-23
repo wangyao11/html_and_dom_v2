@@ -1,5 +1,5 @@
-var Question = require("./question");
-var _ = require("lodash");
+var Question = require('./question');
+var _ = require('lodash');
 
 function Estimate(name, rightAnswer, scorce) {
   Question.call(this, name, rightAnswer, scorce);
