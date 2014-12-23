@@ -1,4 +1,5 @@
 var Question = require("./question");
+var _ = require("lodash");
 
 function Choice(name, rightAnswer, scorce) {
   Question.call(this, name, rightAnswer, scorce);

@@ -1,4 +1,5 @@
 var Questions = require("./questions");
+var _ = require("lodash");
 
 function Question(name, rightAnswer, scorce){
   this.name = name;
