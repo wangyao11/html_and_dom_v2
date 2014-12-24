@@ -1,5 +1,3 @@
-var Question = require('./model/question');
-
 var Questions = require('./model/questions');
 
 var _ = require('lodash');
